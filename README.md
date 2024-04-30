@@ -6,10 +6,6 @@ https://youtu.be/f3j7qMRq5dI
 #it contains three different difficulty levels the user can choose from
 #our theme was countries
 
-#this is our crossword puzzle game
-#it contains three different difficulty levels the user can choose from
-#our theme was countries
-
 import random
 import string
 
