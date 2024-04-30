@@ -6,6 +6,10 @@ https://youtu.be/f3j7qMRq5dI
 #it contains three different difficulty levels the user can choose from
 #our theme was countries
 
+#this is our crossword puzzle game
+#it contains three different difficulty levels the user can choose from
+#our theme was countries
+
 import random
 import string
 
@@ -70,14 +74,10 @@ class CrosswordGenerator:
                     return False
                 self.grid[row + r][col] = letter
             return True
-        
-# word list for different difficulty levels
-        
+    
 easy_words = ['paris', 'tokyo', 'rome', 'london', 'newyork']
 medium_words = ['beijing', 'istanbul', 'mumbai', 'cairo', 'sydney']
 hard_words = ['rio', 'moscow', 'athens', 'berlin', 'tokyo']
-
-# function to play the game
 
 def play_game():
     while True:
@@ -126,7 +126,7 @@ def play_game():
             else:
                 print('Sorry, that\'s incorrect. Try again. ')
             
-# Main program loop 
+
 if __name__ == '__main__':
     while True:
         play_game()
@@ -134,3 +134,6 @@ if __name__ == '__main__':
         if play_again.lower() != 'yes':
             print
 
+
+        
+ 
